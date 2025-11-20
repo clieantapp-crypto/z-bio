@@ -84,3 +84,6 @@
     @apply bg-background text-foreground;
   }
 }
+.cos{
+  border: 1px skyblue solid;
+}

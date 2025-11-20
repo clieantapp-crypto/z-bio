@@ -69,13 +69,13 @@ export default function BioLinksPage() {
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block"
+                className="block "
               >
-                <Card className="p-4 hover:bg-muted/50 transition-colors cursor-pointer border-border">
+                <Card className="p-4 hover:bg-sky-200/50 cos transition-colors cursor-pointer border-border">
                   <div className="flex items-center gap-4">
-                    <div className="flex-shrink-0">
-                      <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                        <Icon className="w-6 h-6 text-primary" />
+                    <div className="flex-shrink-1">
+                      <div className="w-12 h-12 cos rounded-full bg-primary/10 flex items-center justify-center">
+                        <Icon className="w-6  h-6 text-primary" />
                       </div>
                     </div>
                     <div className="flex-1 text-right">
