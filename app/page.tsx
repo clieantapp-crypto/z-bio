@@ -45,16 +45,16 @@ export default function BioLinksPage() {
   ]
 
   return (
-    <div className="min-h-screen bg-background" dir="rtl">
+    <div className="min-h-screen bg-gray-900" dir="rtl">
       <div className="container max-w-2xl mx-auto px-4 py-12">
         {/* Profile Section */}
         <div className="flex flex-col items-center text-center mb-8">
           <Avatar className="h-24 w-24 mb-4 ring-1 ring-whte">
             <AvatarImage src="/me.png" alt="الصورة الشخصية" />
-            <AvatarFallback className="text-2xl bg-primary text-primary-foreground">شع</AvatarFallback>
+            <AvatarFallback className="text-2xl bg-gray-700 text-primary-foreground">شع</AvatarFallback>
           </Avatar>
-          <h1 className="text-3xl font-bold mb-2 text-balance">Muath A. Alzoubi</h1>
-          <p className="text-muted-foreground text-lg mb-4 text-pretty">
+          <h1 className="text-3xl font-bold mb-2 text-gray-100">Muath A. Alzoubi</h1>
+          <p className="text-gray-400 text-lg mb-4 text-pretty">
             مرحباً بك في صفحة الروابط الخاصة بنا. تواصل معنا عبر قنواتنا المختلفة
           </p>
         </div>
@@ -71,16 +71,16 @@ export default function BioLinksPage() {
                 rel="noopener noreferrer"
                 className="block "
               >
-                <Card className="p-4 hover:bg-sky-200/50 cos transition-colors cursor-pointer border-border">
+                <Card className="p-4 bg-sky-900/50 hover:bg-sky-700/50 cos transition-colors cursor-pointer border-border">
                   <div className="flex items-center gap-4">
                     <div className="flex-shrink-1">
                       <div className="w-12 h-12 cos rounded-full bg-primary/10 flex items-center justify-center">
-                        <Icon className="w-6  h-6 text-primary" />
+                        <Icon className="w-6  h-6 text-sky-500" />
                       </div>
                     </div>
                     <div className="flex-1 text-right">
-                      <h3 className="font-semibold text-lg">{link.title}</h3>
-                      <p className="text-sm text-muted-foreground">{link.description}</p>
+                      <h3 className="font-semibold text-lg text-sky-100">{link.title}</h3>
+                      <p className="text-sm text-sky-500">{link.description}</p>
                     </div>
                   </div>
                 </Card>
