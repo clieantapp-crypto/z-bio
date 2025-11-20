@@ -9,13 +9,13 @@ export default function BioLinksPage() {
     {
       title: 'موقعنا الإلكتروني',
       description: 'زر موقعنا الرسمي',
-      url: 'https://example.com',
+      url: 'https://mz-js.com',
       icon: Globe
     },
     {
       title: 'تواصل معنا',
       description: 'راسلنا عبر البريد الإلكتروني',
-      url: 'mailto:contact@example.com',
+      url: 'mailto:contact@mz-js.com',
       icon: Mail
     },
     {
@@ -49,11 +49,11 @@ export default function BioLinksPage() {
       <div className="container max-w-2xl mx-auto px-4 py-12">
         {/* Profile Section */}
         <div className="flex flex-col items-center text-center mb-8">
-          <Avatar className="h-24 w-24 mb-4 ring-2 ring-primary">
-            <AvatarImage src="/placeholder.svg?height=96&width=96" alt="الصورة الشخصية" />
+          <Avatar className="h-24 w-24 mb-4 ring-1 ring-whte">
+            <AvatarImage src="/me.png" alt="الصورة الشخصية" />
             <AvatarFallback className="text-2xl bg-primary text-primary-foreground">شع</AvatarFallback>
           </Avatar>
-          <h1 className="text-3xl font-bold mb-2 text-balance">الشعار أو الاسم</h1>
+          <h1 className="text-3xl font-bold mb-2 text-balance">Muath A. Alzoubi</h1>
           <p className="text-muted-foreground text-lg mb-4 text-pretty">
             مرحباً بك في صفحة الروابط الخاصة بنا. تواصل معنا عبر قنواتنا المختلفة
           </p>
