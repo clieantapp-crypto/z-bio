@@ -136,8 +136,8 @@ export default function PrivacyPage() {
               إذا كان لديك أي أسئلة حول سياسة الخصوصية، يرجى التواصل معنا عبر:
             </p>
             <ul className="list-none mr-6 mt-2 space-y-1 text-muted-foreground">
-              <li>البريد الإلكتروني: privacy@example.com</li>
-              <li>الهاتف: +966 XX XXX XXXX</li>
+              <li>البريد الإلكتروني: privacy@mz-js.com</li>
+              <li  dir='ltr'>الهاتف: +962 79 595 7348</li>
             </ul>
           </section>
         </Card>

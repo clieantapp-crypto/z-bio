@@ -160,9 +160,9 @@ export default function TermsPage() {
             <p className="text-muted-foreground leading-relaxed">
               إذا كان لديك أي أسئلة حول شروط الاستخدام، يرجى التواصل معنا عبر:
             </p>
-            <ul className="list-none mr-6 mt-2 space-y-1 text-muted-foreground">
-              <li>البريد الإلكتروني: support@example.com</li>
-              <li>الهاتف: +966 XX XXX XXXX</li>
+            <ul dir='lrt' className="list-none mr-6 mt-2 space-y-1 text-muted-foreground">
+              <li>البريد الإلكتروني: support@mz-js.com</li>
+              <li>الهاتف: +962 79 595 7348</li>
             </ul>
           </section>
         </Card>
